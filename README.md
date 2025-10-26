@@ -57,6 +57,24 @@ This project uses **machine learning** to predict a country’s **CO₂ emission
 
 ---
 
+
+# 📊 Dataset Information
+
+**Source:**  
+- [World Bank Open Data](https://data.worldbank.org/)
+- [Kaggle CO2 Emissions Dataset](https://www.kaggle.com/datasets)
+
+**Columns Used:**
+- `Country` — Country name
+- `GDP_per_capita` — Economic indicator
+- `Energy_use` — Energy consumption per capita
+- `Renewable_energy_percent` — % of renewable energy in total consumption
+- `CO2_emissions_per_capita` — Target variable (metric tons per person)
+
+**Note:**  
+Data cleaned and preprocessed for training the CO₂ emission prediction model.
+
+
 ##  Example Code Snippet
 
 ```python
